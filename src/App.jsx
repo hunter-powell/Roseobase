@@ -14,10 +14,10 @@ const App = () => {
       <div className='container'>
        <Routes>
          <Route path='/' element={<Home />} />
-         <Route path='/Genomes' element={<Genomes />} />
-         <Route path='/JBrowse' element={<JBrowse/>} />
-         <Route path='/Blast' element={<Blast />} />
-         <Route path='/Contact' element={<Contact/>} />
+         <Route path='/genomes' element={<Genomes />} />
+         <Route path='/jbrowse' element={<JBrowse/>} />
+         <Route path='/blast' element={<Blast />} />
+         <Route path='/contact' element={<Contact/>} />
        </Routes>
       </div>
     </div>
