@@ -44,116 +44,38 @@ const BlastTool = () => {
     setIsLoading(true);
     setError(null);
     setResults(null);
-    setStatus('Submitting BLAST job...');
+    setStatus('Running local BLAST...');
 
     try {
-      // Submit BLAST job
-      const submitParams = new URLSearchParams({
-        CMD: 'Put',
-        PROGRAM: blastProgram,
-        DATABASE: database,
-        QUERY: sequence,
-        EXPECT: eValue,
-        HITLIST_SIZE: maxHits.toString(),
-        FORMAT_TYPE: 'JSON2_S'
-      });
+      // Prepare request body for local API
+      const body = {
+        sequence,
+        program: blastProgram,
+        evalue: eValue || '10',
+        maxHits: maxHits || 100,
+        wordSize: wordSize || '',
+        db: undefined // use default testdb for now
+      };
 
-      if (wordSize && wordSize !== '') {
-        submitParams.append('WORD_SIZE', wordSize);
-      }
-
-      if (blastProgram === 'blastn' && megablast) {
-        submitParams.append('MEGABLAST', 'on');
-      }
-
-      const submitResponse = await fetch('https://blast.ncbi.nlm.nih.gov/Blast.cgi', {
+      const response = await fetch('/api/blast', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
+          'Content-Type': 'application/json',
         },
-        body: submitParams.toString()
+        body: JSON.stringify(body),
       });
 
-      const submitText = await submitResponse.text();
-      
-      // Extract RID (Request ID)
-      const ridMatch = submitText.match(/RID = (.+)/);
-      if (!ridMatch) {
-        throw new Error('Failed to submit BLAST job');
+      if (!response.ok) {
+        const err = await response.json();
+        throw new Error(err.error || 'BLAST failed');
       }
 
-      const rid = ridMatch[1].trim();
-      setJobId(rid);
-      setStatus(`Job submitted with ID: ${rid}. Checking status...`);
-
-      // Poll for results
-      pollResults(rid);
-
-    } catch (err) {
-      setError(`Error submitting BLAST: ${err.message}`);
-      setIsLoading(false);
-    }
-  };
-
-  const pollResults = async (rid) => {
-    const maxAttempts = 60; // 5 minutes max
-    let attempts = 0;
-
-    const checkStatus = async () => {
-      try {
-        const statusParams = new URLSearchParams({
-          CMD: 'Get',
-          FORMAT_OBJECT: 'SearchInfo',
-          RID: rid
-        });
-
-        const statusResponse = await fetch(`https://blast.ncbi.nlm.nih.gov/Blast.cgi?${statusParams.toString()}`);
-        const statusText = await statusResponse.text();
-
-        if (statusText.includes('Status=WAITING')) {
-          setStatus(`Job running... (${attempts + 1}/${maxAttempts})`);
-          attempts++;
-          if (attempts < maxAttempts) {
-            setTimeout(checkStatus, 5000); // Check every 5 seconds
-          } else {
-            setError('Job timed out. Please try again.');
-            setIsLoading(false);
-          }
-        } else if (statusText.includes('Status=READY')) {
-          setStatus('Job complete. Retrieving results...');
-          await getResults(rid);
-        } else if (statusText.includes('Status=UNKNOWN')) {
-          setError('Job ID not found or expired');
-          setIsLoading(false);
-        } else {
-          setError('Job failed');
-          setIsLoading(false);
-        }
-      } catch (err) {
-        setError(`Error checking status: ${err.message}`);
-        setIsLoading(false);
-      }
-    };
-
-    checkStatus();
-  };
-
-  const getResults = async (rid) => {
-    try {
-      const resultParams = new URLSearchParams({
-        CMD: 'Get',
-        FORMAT_TYPE: 'JSON2_S',
-        RID: rid
-      });
-
-      const resultResponse = await fetch(`https://blast.ncbi.nlm.nih.gov/Blast.cgi?${resultParams.toString()}`);
-      const resultData = await resultResponse.json();
-
+      const resultData = await response.json();
       setResults(resultData);
       setStatus('Results retrieved successfully!');
       setIsLoading(false);
     } catch (err) {
-      setError(`Error retrieving results: ${err.message}`);
+      setError(`Error running BLAST: ${err.message}`);
       setIsLoading(false);
     }
   };
@@ -331,7 +253,7 @@ const BlastTool = () => {
         {results && (
           <div className="bg-white rounded-lg shadow-lg p-6">
             <h2 className="text-2xl font-bold text-gray-800 mb-4">BLAST Results</h2>
-            
+
             {results.BlastOutput2 && results.BlastOutput2[0] && results.BlastOutput2[0].report && (
               <div className="space-y-6">
                 {/* Summary */}
@@ -373,7 +295,7 @@ const BlastTool = () => {
                               <div><strong>Length:</strong> {hit.len || 'N/A'}</div>
                             </div>
                           </div>
-                          
+
                           {hit.hsps && hit.hsps.length > 0 && (
                             <div className="grid md:grid-cols-4 gap-4 text-sm bg-white rounded p-3">
                               <div>
@@ -393,7 +315,7 @@ const BlastTool = () => {
                         </div>
                       ))}
                     </div>
-                    
+
                     {results.BlastOutput2[0].report.results.search.hits.length > 10 && (
                       <div className="text-center mt-4">
                         <p className="text-gray-600">
