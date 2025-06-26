@@ -6,35 +6,27 @@ const JBrowseComp = () => {
   const config = {
     assemblies: [
       {
-        name: 'volvox',
+        name: 'DSS3_July2023',
         sequence: {
           type: 'ReferenceSequenceTrack',
-          trackId: 'volvox_refseq',
+          trackId: 'DSS3_July2023_refseq',
           adapter: {
-            type: 'TwoBitAdapter',
-            twoBitLocation: {
-              uri: 'https://jbrowse.org/code/JBrowse2/sample_data/volvox.2bit',
-            },
+            type: 'IndexedFastaAdapter',
+            fastaLocation: { uri: '/genomes/DSS3_July2023.fa' },
+            faiLocation: { uri: '/genomes/DSS3_July2023.fa.fai' },
           },
         },
       },
     ],
     tracks: [
       {
-        type: 'AlignmentsTrack',
-        trackId: 'volvox_bam',
-        name: 'Volvox BAM Track',
-        assemblyNames: ['volvox'],
+        type: 'FeatureTrack',
+        trackId: 'DSS3_July2023_gff3',
+        name: 'GFF3 Annotations',
+        assemblyNames: ['DSS3_July2023'],
         adapter: {
-          type: 'BamAdapter',
-          bamLocation: {
-            uri: 'https://jbrowse.org/code/JBrowse2/sample_data/volvox-sorted.bam',
-          },
-          index: {
-            location: {
-              uri: 'https://jbrowse.org/code/JBrowse2/sample_data/volvox-sorted.bam.bai',
-            },
-          },
+          type: 'Gff3Adapter',
+          gffLocation: { uri: '/genomes/DSS3_July2023.gff3' },
         },
       },
     ],
@@ -45,18 +37,16 @@ const JBrowseComp = () => {
         type: 'LinearGenomeView',
         tracks: [
           {
-            id: 'volvox_bam_track',
-            type: 'AlignmentsTrack',
-            configuration: 'volvox_bam',
+            id: 'DSS3_July2023_gff3_track',
+            type: 'FeatureTrack',
+            configuration: 'DSS3_July2023_gff3',
           },
         ],
       },
     },
   };
 
-  const state = createViewState({
-    config,
-  });
+  const state = createViewState({ config });
 
   // Programmatically show the track
   React.useEffect(() => {
@@ -66,8 +56,8 @@ const JBrowseComp = () => {
   }, [state]);
 
   return (
-    <div className='jbrowse'>
-      <JBrowseApp viewState={state} />
+    <div className='jbrowse' style={{ width: '100%', height: '85vh', minHeight: 500 }}>
+      <JBrowseApp viewState={state} style={{ width: '100%', height: '100%' }} />
     </div>
   );
 };
