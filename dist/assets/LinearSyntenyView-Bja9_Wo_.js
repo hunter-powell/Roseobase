@@ -1,0 +1,2 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["./LinearSyntenyImportForm-Bhnj1c7I.js","./index-lFmIAzC3.js","./index-k4JTE-rs.css"])))=>i.map(i=>d[i]);
+import{o as e,j as t,a as o,_ as i}from"./index-lFmIAzC3.js";import a from"./LinearComparativeView-bXoo07e6.js";const n=o.lazy(()=>i(()=>import("./LinearSyntenyImportForm-Bhnj1c7I.js"),__vite__mapDeps([0,1,2]),import.meta.url)),p=e(function({model:r}){return r.initialized?t.jsx(a,{model:r}):t.jsx(n,{model:r})});export{p as default};

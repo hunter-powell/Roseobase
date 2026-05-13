@@ -1,0 +1,1 @@
+import{o as x,j as s,V as p,b1 as i}from"./index-lFmIAzC3.js";const f=x(function({model:n,mouserect:o,mouserectClient:t,xdistance:e}){const{hview:r,vview:l,viewHeight:a}=n;return o?s.jsxs(p,{placement:e<0?"left":"right",clientPoint:t?{x:t[0],y:t[1]}:void 0,children:[`x - ${i(o[0],r)}`,s.jsx("br",{}),`y - ${i(a-o[1],l)}`,s.jsx("br",{})]}):null});export{f as default};

@@ -1,0 +1,2858 @@
+{
+  "assemblies": [
+    {
+      "name": "Aestuariivita_boseongensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Aestuariivita_boseongensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Aestuariivita_boseongensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Aestuariivita_boseongensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Ahrensia_kielensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Ahrensia_kielensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Ahrensia_kielensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Ahrensia_kielensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Celeribacter_baekdonensis_B30",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Celeribacter_baekdonensis_B30_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Celeribacter_baekdonensis_B30.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Celeribacter_baekdonensis_B30.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Cognatishimia_maritima",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Cognatishimia_maritima_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Cognatishimia_maritima.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Cognatishimia_maritima.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Cognatiyoonia_koreensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Cognatiyoonia_koreensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Cognatiyoonia_koreensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Cognatiyoonia_koreensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Cognatiyoonia_sediminum",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Cognatiyoonia_sediminum_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Cognatiyoonia_sediminum.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Cognatiyoonia_sediminum.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "DSS3_July2023",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "DSS3_July2023_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/DSS3_July2023.fa"
+          },
+          "faiLocation": {
+            "uri": "/genomes/DSS3_July2023.fa.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Dinoroseobacter_shibae_DFL-12",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Dinoroseobacter_shibae_DFL-12_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Dinoroseobacter_shibae_DFL-12.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Dinoroseobacter_shibae_DFL-12.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Epibacterium_ulvae",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Epibacterium_ulvae_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Epibacterium_ulvae.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Epibacterium_ulvae.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Flavimaricola_marinus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Flavimaricola_marinus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Flavimaricola_marinus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Flavimaricola_marinus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Jannaschia_sp._CCS1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Jannaschia_sp._CCS1_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Jannaschia_sp._CCS1.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Jannaschia_sp._CCS1.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Jhaorihella_thermophila",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Jhaorihella_thermophila_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Jhaorihella_thermophila.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Jhaorihella_thermophila.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Leisingera_aquimarina",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Leisingera_aquimarina_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Leisingera_aquimarina.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Leisingera_aquimarina.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Leisingera_caerulea",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Leisingera_caerulea_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Leisingera_caerulea.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Leisingera_caerulea.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Leisingera_daeponensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Leisingera_daeponensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Leisingera_daeponensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Leisingera_daeponensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Leisingera_methylohalidivorans",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Leisingera_methylohalidivorans_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Leisingera_methylohalidivorans.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Leisingera_methylohalidivorans.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Leisingera_sp._ANG1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Leisingera_sp._ANG1_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Leisingera_sp._ANG1.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Leisingera_sp._ANG1.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Limimaricola_cinnabarinus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Limimaricola_cinnabarinus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Limimaricola_cinnabarinus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Limimaricola_cinnabarinus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Limimaricola_hongkongensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Limimaricola_hongkongensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Limimaricola_hongkongensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Limimaricola_hongkongensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Limimaricola_pyoseonensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Limimaricola_pyoseonensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Limimaricola_pyoseonensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Limimaricola_pyoseonensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Limimaricola_soekkakensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Limimaricola_soekkakensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Limimaricola_soekkakensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Limimaricola_soekkakensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Limimaricola_variabilis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Limimaricola_variabilis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Limimaricola_variabilis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Limimaricola_variabilis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Litoreibacter_arenae",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Litoreibacter_arenae_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Litoreibacter_arenae.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Litoreibacter_arenae.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Litorimicrobium_taeanense",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Litorimicrobium_taeanense_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Litorimicrobium_taeanense.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Litorimicrobium_taeanense.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Loktanella_salsilacus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Loktanella_salsilacus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Loktanella_salsilacus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Loktanella_salsilacus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Marinovum_algicola",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Marinovum_algicola_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Marinovum_algicola.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Marinovum_algicola.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Maritimibacter_alkaliphilus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Maritimibacter_alkaliphilus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Maritimibacter_alkaliphilus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Maritimibacter_alkaliphilus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Marivita_cryptomonadis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Marivita_cryptomonadis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Marivita_cryptomonadis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Marivita_cryptomonadis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Oceanicola_granulosus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Oceanicola_granulosus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Oceanicola_granulosus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Oceanicola_granulosus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Oceanicola_sp._S124",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Oceanicola_sp._S124_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Oceanicola_sp._S124.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Oceanicola_sp._S124.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Oceaniovalibus_guishaninsula",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Oceaniovalibus_guishaninsula_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Oceaniovalibus_guishaninsula.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Oceaniovalibus_guishaninsula.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Octadecabacter_antarcticus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Octadecabacter_antarcticus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Octadecabacter_antarcticus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Octadecabacter_antarcticus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Octadecabacter_arcticus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Octadecabacter_arcticus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Octadecabacter_arcticus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Octadecabacter_arcticus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Paracoccus_zeaxanthinifaciens",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Paracoccus_zeaxanthinifaciens_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Paracoccus_zeaxanthinifaciens.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Paracoccus_zeaxanthinifaciens.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Phaeobacter_gallaeciensis_BS107",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Phaeobacter_gallaeciensis_BS107_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Phaeobacter_gallaeciensis_BS107.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Phaeobacter_gallaeciensis_BS107.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Phaeobacter_inhibens_2.10",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Phaeobacter_inhibens_2.10_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Phaeobacter_inhibens_2.10.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Phaeobacter_inhibens_2.10.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Phaeobacter_inhibens_T5",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Phaeobacter_inhibens_T5_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Phaeobacter_inhibens_T5.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Phaeobacter_inhibens_T5.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Phaeobacter_italicus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Phaeobacter_italicus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Phaeobacter_italicus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Phaeobacter_italicus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Planktomarina_temperata",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Planktomarina_temperata_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Planktomarina_temperata.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Planktomarina_temperata.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Polaribacter_sp._MED152",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Polaribacter_sp._MED152_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Polaribacter_sp._MED152.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Polaribacter_sp._MED152.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pontibaca_methylaminivorans",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Pontibaca_methylaminivorans_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Pontibaca_methylaminivorans.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Pontibaca_methylaminivorans.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pseudaestuariivita_atlantica",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Pseudaestuariivita_atlantica_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Pseudaestuariivita_atlantica.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Pseudaestuariivita_atlantica.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pseudodonghicola_xiamenensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Pseudodonghicola_xiamenensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Pseudodonghicola_xiamenensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Pseudodonghicola_xiamenensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pseudooctadecabacter_jejudonensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Pseudooctadecabacter_jejudonensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Pseudooctadecabacter_jejudonensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Pseudooctadecabacter_jejudonensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pseudophaeobacter_arcticus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Pseudophaeobacter_arcticus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Pseudophaeobacter_arcticus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Pseudophaeobacter_arcticus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pseudorhodobacter_ferrugineus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Pseudorhodobacter_ferrugineus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Pseudorhodobacter_ferrugineus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Pseudorhodobacter_ferrugineus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pseudovibrio_exalbescens",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Pseudovibrio_exalbescens_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Pseudovibrio_exalbescens.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Pseudovibrio_exalbescens.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Puniceibacterium_sediminis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Puniceibacterium_sediminis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Puniceibacterium_sediminis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Puniceibacterium_sediminis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseibacterium_elongatum",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseibacterium_elongatum_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseibacterium_elongatum.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseibacterium_elongatum.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseibium_aggregatum",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseibium_aggregatum_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseibium_aggregatum.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseibium_aggregatum.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseibium_alexandrii_DFL-11",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseibium_alexandrii_DFL-11_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseibium_alexandrii_DFL-11.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseibium_alexandrii_DFL-11.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseobacter_denitrificans_OCh_114",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseobacter_denitrificans_OCh_114_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseobacter_denitrificans_OCh_114.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseobacter_denitrificans_OCh_114.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseobacter_litoralis_Och_149",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseobacter_litoralis_Och_149_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseobacter_litoralis_Och_149.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseobacter_litoralis_Och_149.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseobacter_sp._AzwK-3b",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseobacter_sp._AzwK-3b_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseobacter_sp._AzwK-3b.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseobacter_sp._AzwK-3b.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseobacter_sp._CCS2",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseobacter_sp._CCS2_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseobacter_sp._CCS2.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseobacter_sp._CCS2.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseobacter_sp._GAI101",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseobacter_sp._GAI101_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseobacter_sp._GAI101.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseobacter_sp._GAI101.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseobacter_sp._MED193",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseobacter_sp._MED193_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseobacter_sp._MED193.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseobacter_sp._MED193.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseobacter_sp._SK209-2-6",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseobacter_sp._SK209-2-6_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseobacter_sp._SK209-2-6.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseobacter_sp._SK209-2-6.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseovarius_nubinhibens_ISM",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseovarius_nubinhibens_ISM_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseovarius_nubinhibens_ISM.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseovarius_nubinhibens_ISM.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseovarius_sp._217",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseovarius_sp._217_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseovarius_sp._217.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseovarius_sp._217.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Roseovarius_sp._TM1035",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Roseovarius_sp._TM1035_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Roseovarius_sp._TM1035.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Roseovarius_sp._TM1035.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Ruegeria_atlantica_CECT_4292",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Ruegeria_atlantica_CECT_4292_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Ruegeria_atlantica_CECT_4292.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Ruegeria_atlantica_CECT_4292.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Ruegeria_conchae_TW15",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Ruegeria_conchae_TW15_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Ruegeria_conchae_TW15.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Ruegeria_conchae_TW15.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Ruegeria_lacuscaerulensis",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Ruegeria_lacuscaerulensis_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Ruegeria_lacuscaerulensis.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Ruegeria_lacuscaerulensis.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Ruegeria_litorea_R37",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Ruegeria_litorea_R37_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Ruegeria_litorea_R37.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Ruegeria_litorea_R37.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Ruegeria_mediterranea_M17",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Ruegeria_mediterranea_M17_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Ruegeria_mediterranea_M17.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Ruegeria_mediterranea_M17.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Ruegeria_sp._TM1040",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Ruegeria_sp._TM1040_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Ruegeria_sp._TM1040.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Ruegeria_sp._TM1040.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sagittula_stellata_E-37",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Sagittula_stellata_E-37_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Sagittula_stellata_E-37.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Sagittula_stellata_E-37.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Salinihabitans_flavidus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Salinihabitans_flavidus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Salinihabitans_flavidus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Salinihabitans_flavidus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Salipiger_aestuarii_AD8",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Salipiger_aestuarii_AD8_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Salipiger_aestuarii_AD8.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Salipiger_aestuarii_AD8.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Salipiger_bermudensis_HTCC2601",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Salipiger_bermudensis_HTCC2601_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Salipiger_bermudensis_HTCC2601.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Salipiger_bermudensis_HTCC2601.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Salipiger_marinus",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Salipiger_marinus_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Salipiger_marinus.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Salipiger_marinus.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Salipiger_mucosus_DSM_16094",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Salipiger_mucosus_DSM_16094_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Salipiger_mucosus_DSM_16094.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Salipiger_mucosus_DSM_16094.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Salipiger_profundus_JLT2016",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Salipiger_profundus_JLT2016_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Salipiger_profundus_JLT2016.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Salipiger_profundus_JLT2016.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Salipiger_thiooxidans_DSM_10146",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Salipiger_thiooxidans_DSM_10146_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Salipiger_thiooxidans_DSM_10146.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Salipiger_thiooxidans_DSM_10146.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sedimentitalea_nanhaiensis_DSM_24252",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Sedimentitalea_nanhaiensis_DSM_24252_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Sedimentitalea_nanhaiensis_DSM_24252.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Sedimentitalea_nanhaiensis_DSM_24252.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Shimia_abyssi",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Shimia_abyssi_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Shimia_abyssi.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Shimia_abyssi.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Shimia_aestuarii",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Shimia_aestuarii_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Shimia_aestuarii.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Shimia_aestuarii.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Shimia_marina",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Shimia_marina_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Shimia_marina.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Shimia_marina.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Stenotrophomonas_sp._SKA14",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Stenotrophomonas_sp._SKA14_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Stenotrophomonas_sp._SKA14.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Stenotrophomonas_sp._SKA14.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sulfitobacter_indolifex_HEL-45",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Sulfitobacter_indolifex_HEL-45_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Sulfitobacter_indolifex_HEL-45.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Sulfitobacter_indolifex_HEL-45.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sulfitobacter_sp._EE-36",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Sulfitobacter_sp._EE-36_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Sulfitobacter_sp._EE-36.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Sulfitobacter_sp._EE-36.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sulfitobacter_sp._NAS-14.1",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Sulfitobacter_sp._NAS-14.1_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Sulfitobacter_sp._NAS-14.1.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Sulfitobacter_sp._NAS-14.1.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Thalassobius_mediterraneus_DSM_16398",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Thalassobius_mediterraneus_DSM_16398_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Thalassobius_mediterraneus_DSM_16398.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Thalassobius_mediterraneus_DSM_16398.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Thalassococcus_halodurans_DSM_26915",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Thalassococcus_halodurans_DSM_26915_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Thalassococcus_halodurans_DSM_26915.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Thalassococcus_halodurans_DSM_26915.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Tritonibacter_mobilis_F1926",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Tritonibacter_mobilis_F1926_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Tritonibacter_mobilis_F1926.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Tritonibacter_mobilis_F1926.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Tritonibacter_multivorans",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Tritonibacter_multivorans_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Tritonibacter_multivorans.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Tritonibacter_multivorans.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Tritonibacter_scottomollicae",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Tritonibacter_scottomollicae_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Tritonibacter_scottomollicae.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Tritonibacter_scottomollicae.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Tropicibacter_naphthalenivorans_CECT_7648",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Tropicibacter_naphthalenivorans_CECT_7648_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Tropicibacter_naphthalenivorans_CECT_7648.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Tropicibacter_naphthalenivorans_CECT_7648.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Wenxinia_marina_DSM_24838",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Wenxinia_marina_DSM_24838_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Wenxinia_marina_DSM_24838.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Wenxinia_marina_DSM_24838.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Yoonia_litorea_DSM_29433",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Yoonia_litorea_DSM_29433_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Yoonia_litorea_DSM_29433.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Yoonia_litorea_DSM_29433.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Yoonia_maritima_DSM_101533",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Yoonia_maritima_DSM_101533_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Yoonia_maritima_DSM_101533.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Yoonia_maritima_DSM_101533.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Yoonia_rosea_DSM_29591",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Yoonia_rosea_DSM_29591_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Yoonia_rosea_DSM_29591.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Yoonia_rosea_DSM_29591.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Yoonia_sediminilitoris_DSM_29955",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Yoonia_sediminilitoris_DSM_29955_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Yoonia_sediminilitoris_DSM_29955.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Yoonia_sediminilitoris_DSM_29955.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Yoonia_tamlensis_DSM_26879",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Yoonia_tamlensis_DSM_26879_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Yoonia_tamlensis_DSM_26879.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Yoonia_tamlensis_DSM_26879.fna.fai"
+          }
+        }
+      }
+    },
+    {
+      "name": "Yoonia_vestfoldensis_SKA53",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "Yoonia_vestfoldensis_SKA53_refseq",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "/genomes/Yoonia_vestfoldensis_SKA53.fna"
+          },
+          "faiLocation": {
+            "uri": "/genomes/Yoonia_vestfoldensis_SKA53.fna.fai"
+          }
+        }
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "Aestuariivita_boseongensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Aestuariivita_boseongensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Aestuariivita_boseongensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ahrensia_kielensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Ahrensia_kielensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Ahrensia_kielensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Celeribacter_baekdonensis_B30_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Celeribacter_baekdonensis_B30"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Celeribacter_baekdonensis_B30.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Cognatishimia_maritima_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Cognatishimia_maritima"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Cognatishimia_maritima.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Cognatiyoonia_koreensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Cognatiyoonia_koreensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Cognatiyoonia_koreensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Cognatiyoonia_sediminum_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Cognatiyoonia_sediminum"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Cognatiyoonia_sediminum.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "DSS3_July2023_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "DSS3_July2023"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/DSS3_July2023.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Dinoroseobacter_shibae_DFL-12_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Dinoroseobacter_shibae_DFL-12"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Dinoroseobacter_shibae_DFL-12.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Epibacterium_ulvae_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Epibacterium_ulvae"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Epibacterium_ulvae.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Flavimaricola_marinus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Flavimaricola_marinus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Flavimaricola_marinus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Jannaschia_sp._CCS1_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Jannaschia_sp._CCS1"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Jannaschia_sp._CCS1.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Jhaorihella_thermophila_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Jhaorihella_thermophila"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Jhaorihella_thermophila.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Leisingera_aquimarina_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Leisingera_aquimarina"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Leisingera_aquimarina.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Leisingera_caerulea_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Leisingera_caerulea"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Leisingera_caerulea.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Leisingera_daeponensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Leisingera_daeponensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Leisingera_daeponensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Leisingera_methylohalidivorans_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Leisingera_methylohalidivorans"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Leisingera_methylohalidivorans.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Leisingera_sp._ANG1_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Leisingera_sp._ANG1"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Leisingera_sp._ANG1.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Limimaricola_cinnabarinus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Limimaricola_cinnabarinus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Limimaricola_cinnabarinus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Limimaricola_pyoseonensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Limimaricola_pyoseonensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Limimaricola_pyoseonensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Limimaricola_soekkakensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Limimaricola_soekkakensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Limimaricola_soekkakensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Limimaricola_variabilis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Limimaricola_variabilis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Limimaricola_variabilis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Litoreibacter_arenae_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Litoreibacter_arenae"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Litoreibacter_arenae.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Litorimicrobium_taeanense_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Litorimicrobium_taeanense"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Litorimicrobium_taeanense.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Loktanella_salsilacus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Loktanella_salsilacus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Loktanella_salsilacus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Marinovum_algicola_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Marinovum_algicola"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Marinovum_algicola.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Maritimibacter_alkaliphilus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Maritimibacter_alkaliphilus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Maritimibacter_alkaliphilus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Marivita_cryptomonadis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Marivita_cryptomonadis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Marivita_cryptomonadis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Oceanicola_granulosus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Oceanicola_granulosus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Oceanicola_granulosus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Oceanicola_sp._S124_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Oceanicola_sp._S124"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Oceanicola_sp._S124.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Octadecabacter_antarcticus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Octadecabacter_antarcticus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Octadecabacter_antarcticus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Octadecabacter_arcticus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Octadecabacter_arcticus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Octadecabacter_arcticus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Paracoccus_zeaxanthinifaciens_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Paracoccus_zeaxanthinifaciens"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Paracoccus_zeaxanthinifaciens.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Phaeobacter_gallaeciensis_BS107_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Phaeobacter_gallaeciensis_BS107"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Phaeobacter_gallaeciensis_BS107.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Phaeobacter_inhibens_2.10_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Phaeobacter_inhibens_2.10"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Phaeobacter_inhibens_2.10.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Phaeobacter_inhibens_T5_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Phaeobacter_inhibens_T5"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Phaeobacter_inhibens_T5.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Phaeobacter_italicus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Phaeobacter_italicus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Phaeobacter_italicus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Planktomarina_temperata_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Planktomarina_temperata"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Planktomarina_temperata.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Polaribacter_sp._MED152_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Polaribacter_sp._MED152"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Polaribacter_sp._MED152.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Pontibaca_methylaminivorans_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Pontibaca_methylaminivorans"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Pontibaca_methylaminivorans.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Pseudaestuariivita_atlantica_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Pseudaestuariivita_atlantica"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Pseudaestuariivita_atlantica.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Pseudodonghicola_xiamenensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Pseudodonghicola_xiamenensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Pseudodonghicola_xiamenensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Pseudooctadecabacter_jejudonensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Pseudooctadecabacter_jejudonensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Pseudooctadecabacter_jejudonensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Pseudophaeobacter_arcticus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Pseudophaeobacter_arcticus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Pseudophaeobacter_arcticus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Pseudorhodobacter_ferrugineus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Pseudorhodobacter_ferrugineus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Pseudorhodobacter_ferrugineus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Pseudovibrio_exalbescens_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Pseudovibrio_exalbescens"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Pseudovibrio_exalbescens.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Puniceibacterium_sediminis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Puniceibacterium_sediminis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Puniceibacterium_sediminis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseibacterium_elongatum_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseibacterium_elongatum"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseibacterium_elongatum.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseibium_aggregatum_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseibium_aggregatum"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseibium_aggregatum.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseibium_alexandrii_DFL-11_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseibium_alexandrii_DFL-11"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseibium_alexandrii_DFL-11.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseobacter_denitrificans_OCh_114_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseobacter_denitrificans_OCh_114"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseobacter_denitrificans_OCh_114.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseobacter_litoralis_Och_149_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseobacter_litoralis_Och_149"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseobacter_litoralis_Och_149.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseobacter_sp._AzwK-3b_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseobacter_sp._AzwK-3b"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseobacter_sp._AzwK-3b.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseobacter_sp._CCS2_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseobacter_sp._CCS2"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseobacter_sp._CCS2.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseobacter_sp._GAI101_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseobacter_sp._GAI101"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseobacter_sp._GAI101.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseobacter_sp._MED193_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseobacter_sp._MED193"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseobacter_sp._MED193.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseobacter_sp._SK209-2-6_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseobacter_sp._SK209-2-6"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseobacter_sp._SK209-2-6.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseovarius_nubinhibens_ISM_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseovarius_nubinhibens_ISM"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseovarius_nubinhibens_ISM.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseovarius_sp._217_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseovarius_sp._217"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseovarius_sp._217.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Roseovarius_sp._TM1035_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Roseovarius_sp._TM1035"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Roseovarius_sp._TM1035.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ruegeria_atlantica_CECT_4292_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Ruegeria_atlantica_CECT_4292"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Ruegeria_atlantica_CECT_4292.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ruegeria_conchae_TW15_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Ruegeria_conchae_TW15"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Ruegeria_conchae_TW15.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ruegeria_lacuscaerulensis_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Ruegeria_lacuscaerulensis"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Ruegeria_lacuscaerulensis.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ruegeria_litorea_R37_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Ruegeria_litorea_R37"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Ruegeria_litorea_R37.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ruegeria_mediterranea_M17_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Ruegeria_mediterranea_M17"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Ruegeria_mediterranea_M17.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Ruegeria_sp._TM1040_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Ruegeria_sp._TM1040"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Ruegeria_sp._TM1040.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Sagittula_stellata_E-37_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Sagittula_stellata_E-37"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Sagittula_stellata_E-37.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Salinihabitans_flavidus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Salinihabitans_flavidus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Salinihabitans_flavidus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Salipiger_aestuarii_AD8_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Salipiger_aestuarii_AD8"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Salipiger_aestuarii_AD8.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Salipiger_bermudensis_HTCC2601_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Salipiger_bermudensis_HTCC2601"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Salipiger_bermudensis_HTCC2601.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Salipiger_marinus_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Salipiger_marinus"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Salipiger_marinus.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Salipiger_mucosus_DSM_16094_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Salipiger_mucosus_DSM_16094"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Salipiger_mucosus_DSM_16094.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Salipiger_profundus_JLT2016_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Salipiger_profundus_JLT2016"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Salipiger_profundus_JLT2016.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Salipiger_thiooxidans_DSM_10146_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Salipiger_thiooxidans_DSM_10146"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Salipiger_thiooxidans_DSM_10146.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Sedimentitalea_nanhaiensis_DSM_24252_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Sedimentitalea_nanhaiensis_DSM_24252"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Sedimentitalea_nanhaiensis_DSM_24252.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Shimia_abyssi_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Shimia_abyssi"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Shimia_abyssi.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Shimia_aestuarii_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Shimia_aestuarii"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Shimia_aestuarii.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Shimia_marina_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Shimia_marina"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Shimia_marina.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Stenotrophomonas_sp._SKA14_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Stenotrophomonas_sp._SKA14"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Stenotrophomonas_sp._SKA14.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Sulfitobacter_indolifex_HEL-45_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Sulfitobacter_indolifex_HEL-45"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Sulfitobacter_indolifex_HEL-45.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Sulfitobacter_sp._EE-36_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Sulfitobacter_sp._EE-36"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Sulfitobacter_sp._EE-36.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Sulfitobacter_sp._NAS-14.1_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Sulfitobacter_sp._NAS-14.1"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Sulfitobacter_sp._NAS-14.1.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Thalassobius_mediterraneus_DSM_16398_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Thalassobius_mediterraneus_DSM_16398"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Thalassobius_mediterraneus_DSM_16398.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Thalassococcus_halodurans_DSM_26915_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Thalassococcus_halodurans_DSM_26915"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Thalassococcus_halodurans_DSM_26915.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Tritonibacter_mobilis_F1926_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Tritonibacter_mobilis_F1926"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Tritonibacter_mobilis_F1926.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Tritonibacter_multivorans_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Tritonibacter_multivorans"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Tritonibacter_multivorans.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Tritonibacter_scottomollicae_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Tritonibacter_scottomollicae"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Tritonibacter_scottomollicae.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Tropicibacter_naphthalenivorans_CECT_7648_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Tropicibacter_naphthalenivorans_CECT_7648"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Tropicibacter_naphthalenivorans_CECT_7648.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Wenxinia_marina_DSM_24838_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Wenxinia_marina_DSM_24838"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Wenxinia_marina_DSM_24838.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Yoonia_litorea_DSM_29433_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Yoonia_litorea_DSM_29433"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Yoonia_litorea_DSM_29433.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Yoonia_maritima_DSM_101533_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Yoonia_maritima_DSM_101533"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Yoonia_maritima_DSM_101533.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Yoonia_rosea_DSM_29591_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Yoonia_rosea_DSM_29591"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Yoonia_rosea_DSM_29591.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Yoonia_sediminilitoris_DSM_29955_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Yoonia_sediminilitoris_DSM_29955"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Yoonia_sediminilitoris_DSM_29955.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Yoonia_tamlensis_DSM_26879_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Yoonia_tamlensis_DSM_26879"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Yoonia_tamlensis_DSM_26879.gff"
+        }
+      }
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "Yoonia_vestfoldensis_SKA53_gff3",
+      "name": "GFF3 Annotations",
+      "assemblyNames": [
+        "Yoonia_vestfoldensis_SKA53"
+      ],
+      "adapter": {
+        "type": "Gff3Adapter",
+        "gffLocation": {
+          "uri": "/genomes/Yoonia_vestfoldensis_SKA53.gff"
+        }
+      }
+    }
+  ]
+}
