@@ -4,6 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createBlastRouter } from './blast-api.js';
+import { getBundledGenomeDirs } from './bundled-paths.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = path.resolve(__dirname, '../..');
@@ -28,9 +29,8 @@ export async function startServer({ dataDir = '', blastBinDir = '', port = 0 } =
       app.use('/genomes', express.static(userGenomes));
     }
   }
-  const publicGenomes = path.join(PROJECT_ROOT, 'public', 'genomes');
-  if (fs.existsSync(publicGenomes)) {
-    app.use('/genomes', express.static(publicGenomes));
+  for (const bundledGenomes of getBundledGenomeDirs()) {
+    app.use('/genomes', express.static(bundledGenomes));
   }
 
   const blastRouter = createBlastRouter({ dataDir, blastBinDir });

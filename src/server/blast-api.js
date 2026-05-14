@@ -3,11 +3,8 @@ import { execFile } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import os from 'os';
-import { fileURLToPath } from 'url';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const PROJECT_ROOT = path.resolve(__dirname, '../..');
+import { PROJECT_ROOT, getBundledGenomeDirs } from './bundled-paths.js';
 
 function parseOutfmt6(line) {
   const cols = line.split('\t');
@@ -34,15 +31,16 @@ export function createBlastRouter({ dataDir = '', blastBinDir = '' } = {}) {
     return '';
   }
 
-  /** Ordered search paths: user data first, then bundled public/genomes. */
+  /** Ordered search paths: user data first, then bundled genomes. */
   function getGenomeSearchDirs() {
     const dirs = [];
     if (dataDir) {
       const userDir = path.join(dataDir, 'genomes');
       if (fs.existsSync(userDir)) dirs.push(userDir);
     }
-    const pubDir = path.join(PROJECT_ROOT, 'public', 'genomes');
-    if (fs.existsSync(pubDir) && !dirs.includes(pubDir)) dirs.push(pubDir);
+    for (const dir of getBundledGenomeDirs()) {
+      if (!dirs.includes(dir)) dirs.push(dir);
+    }
     return dirs;
   }
 
