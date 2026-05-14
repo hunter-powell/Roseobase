@@ -1,1 +1,7 @@
 node_modules
+dist
+release
+blast-bin/darwin
+blast-bin/win32
+blast-bin/mac-tmp
+blast-bin/win-tmp

@@ -2,6 +2,7 @@
   "name": "roseobase",
   "private": true,
   "version": "1.0.0",
+  "author": "University of Georgia Marine Sciences",
   "type": "module",
   "main": "electron/main.js",
   "scripts": {
@@ -12,7 +13,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "dist": "npm run build && electron-builder --mac --win",
-    "dist:mac": "npm run build && electron-builder --mac",
+    "dist:mac": "npm run build && CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder --mac",
     "dist:win": "npm run build && electron-builder --win"
   },
   "dependencies": {
@@ -49,7 +50,8 @@
     "files": [
       "dist/**/*",
       "electron/**/*",
-      "src/server/**/*"
+      "src/server/**/*",
+      "public/genomes/**/*"
     ],
     "extraResources": [
       {
@@ -62,9 +64,9 @@
     ],
     "mac": {
       "target": [
-        "dmg",
-        "zip"
+        "dmg"
       ],
+      "identity": null,
       "category": "public.app-category.education"
     },
     "win": {
